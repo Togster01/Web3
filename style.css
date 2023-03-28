@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color:rgba(0, 0, 0, 0.747);
+    height: 70px;
+    line-height: 45px;
+    color: hsl(0, 4%, 82%);
+}
+body {
+    background-color: #e2d9d9;
+}
+
+.box1 {
+    display: inline-block;
+    padding-left: 200px;
+}
+.box1 h1 {
+    text-transform: capitalize;
+}
+ul {
+    display: inline-block;
+    margin-left: 1000px;
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 12px;
+    font-weight: 700;
+}
+li:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    color: black;
+}
+nav{
+    background: url(luca-bravo-9l_326FISzk-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 350px;
+    color: #ffffff;
+}
+nav h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.box2{
+    height: 4px;
+    width: 50px;
+    background-color: #ff7300;
+    margin-left: 930px;
+}
+.box3{
+    height: 45px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: hsl(29, 100%, 50%);
+    text-transform: uppercase;
+    margin-left: 880px;
+    cursor: pointer;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.box5{
+    background-color:#ff7300;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+main h2{
+    text-transform: none;
+    font-size: 45px;
+    padding-top: 120px; 
+}
+.box4{
+    height: 4px;
+    width: 50px;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 930px;
+
+}
+main p{
+    font-size: 20px;
+}
+
+.box6{
+    text-align: center;
+    height: 600px;
+}
+
+.box7{
+    height: 4px;
+    width: 50px;
+    background-color: #ff7300;
+    margin-left: 930px;
+}
+.btn-social{
+    display: inline-block;
+    height: 170px;
+    width: 450px;
+    border-radius: 50px; 
+    font-size: 30px;
+    padding-left: 100px; 
+    padding-top: 70px;  
+}
+.text{
+    display: inline-block;
+    font-size: 25px;
+    font-weight:bold;
+}
+.text2{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 800;
+}
+.a{
+    background-color: #e2d9d9;
+    display: inline-block;
+}
+.square1{
+    background: url(corinne-kutz-JQL8ifClN_E-unsplash.jpg);
+    height: 50vh;
+    width: 33%;
+    background-position: center;
+}
+.square2{
+    background: url(austin-poon-JO_S6ewBqAk-unsplash.jpg);
+    height: 50vh;
+    width: 33%;
+    background-position: center;
+}
+.square3{
+    background: url(sincerely-media-ylveRpZ8L1s-unsplash.jpg);
+    height: 50vh;
+    width: 33%;
+    background-position: center;
+}
+.square4{
+    background: url(mikey-harris-hRlna96fZOI-unsplash.jpg);
+    height: 50vh;
+    width: 33%;
+    background-position: center;
+}
+.square5{
+    background: url(corinne-kutz-q8h7S0CnENg-unsplash.jpg);
+    height: 50vh;
+    width: 33%;
+    background-position: center;
+}
+.square6{
+    background: url(nick-morrison-FHnnjk1Yj7Y-unsplash.jpg);
+    height: 50vh;
+    width: 33%;
+    background-position: center;
+}
+footer{
+    height: 800px;
+    background-color: hsl(0, 100%, 95%);
+}
+footer h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+.box9{
+    height: 4px;
+    width: 50px;
+    background-color: #ff7300;
+    margin-left: 930px;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+form{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.box10{
+    background-color: #f0e0d3;
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: hwb(30 80% 8%);
+    font-size: 20px;
+    color: hsl(0, 0%, 60%);
+    padding-left: 10px;
+    margin: 10px;
+}
+.box11{
+    background-color: #f0e0d3;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: hwb(30 80% 8%);
+    font-size: 20px;
+    color: hsl(0, 0%, 60%);
+    padding: 10px;
+}
+.box12{
+    text-transform: uppercase;
+    background-color:#ff7300;
+    border-color: #ff7300;
+    color: azure;
+    font-weight: bolder;
+    height: 50px;
+    width: 650px;
+    border-radius: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.copiright{
+    height: 90px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    color: hwb(0 52% 45% / 0.849);
+    font-weight: 500;
+}
+
